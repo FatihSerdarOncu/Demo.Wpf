@@ -1,0 +1,10 @@
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\Demo.Server.Svc.dll
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\Demo.Server.Svc.pdb
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\Demo.Server.Data.dll
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\NPoco.dll
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\Demo.Server.Data.pdb
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.csprojAssemblyReference.cache
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.csproj.CoreCompileInputs.cache
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.csproj.CopyComplete
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.dll
+C:\Users\serda\source\repos\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.pdb

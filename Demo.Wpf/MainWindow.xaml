@@ -1,0 +1,90 @@
+﻿<Window x:Class="Demo.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo.Wpf"
+        xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1024" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="1" Grid.Row="1" Background="#FF80B680">
+            <ScrollViewer>
+                <Grid>
+                    <Frame x:Name="Main" NavigationUIVisibility="Hidden"></Frame>
+                </Grid>
+            </ScrollViewer>
+            
+             
+        </Grid>
+
+        <Grid Grid.Row="1" Background="#FFE0E4E6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.Effect>
+                <DropShadowEffect RenderingBias="Quality" Color="#FFD3C4C4" BlurRadius="20"/>
+            </Grid.Effect>
+            <Grid Background="#FF54B3D6">
+                <TextBlock Text="DASHBOARD" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Black" FontSize="20">
+
+                </TextBlock>
+            </Grid>
+            <StackPanel Grid.Row="1">
+                <Button Margin="10" Background="#FFC17B7B" Foreground="White" BorderBrush="#FF8B8964" Height="35">
+                    <Grid Width="150" >
+                        <materialDesign:PackIcon Kind="ViewDashboard" VerticalAlignment="Center" ></materialDesign:PackIcon>
+                        <TextBlock HorizontalAlignment="Center" Text="DASHBOARD"></TextBlock>
+                    </Grid>
+                </Button>
+
+                <Button Margin="10" Background="#FFC17B7B" Foreground="White" BorderBrush="#FF8B8964" Height="35" Click="BtnClikPersonel">
+                    <Grid Width="150" >
+                        <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center" ></materialDesign:PackIcon>
+                        <TextBlock HorizontalAlignment="Center" Text="Personel" Height="16" Margin="52,0" VerticalAlignment="Top"></TextBlock>
+                    </Grid>
+                </Button>
+
+                <Button Margin="10" Background="#FFC17B7B" Foreground="White" BorderBrush="#FF8B8964" Height="35">
+                    <Grid Width="150" >
+                        <materialDesign:PackIcon Kind="ContentPaste" VerticalAlignment="Center" ></materialDesign:PackIcon>
+                        <TextBlock HorizontalAlignment="Center" Text="Department"></TextBlock>
+                    </Grid>
+                </Button>
+
+                <Button Margin="10" Background="#FFC17B7B" Foreground="White" BorderBrush="#FF8B8964" Height="35">
+                    <Grid Width="150" >
+                        <materialDesign:PackIcon Kind="City" VerticalAlignment="Center" ></materialDesign:PackIcon>
+                        <TextBlock HorizontalAlignment="Center" Text="Şehir"></TextBlock>
+                    </Grid>
+                </Button>
+
+
+            </StackPanel>
+        </Grid>
+
+        <Grid x:Name="GridOfTitle" Grid.ColumnSpan="2" Background="#FF1495C5" MouseDown="GridOfTitle_MouseDown">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10,0">
+                <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" >
+                    <materialDesign:PackIcon Kind="Bell"></materialDesign:PackIcon>
+                </Button>
+                <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" >
+                    <materialDesign:PackIcon Kind="Account"></materialDesign:PackIcon>
+                </Button>
+                <Button x:Name="ButtonClose" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="ButtonClose_Click">
+                    <materialDesign:PackIcon Kind="Power"></materialDesign:PackIcon>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

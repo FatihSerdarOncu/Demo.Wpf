@@ -1,0 +1,9 @@
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\bin\Debug\Demo.Helpers.dll
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\bin\Debug\Demo.Helpers.pdb
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\bin\Debug\Demo.Server.Svc.dll
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\bin\Debug\Demo.Server.Svc.pdb
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Demo.Helpers.csprojAssemblyReference.cache
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Demo.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Demo.Helpers.csproj.CopyComplete
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Demo.Helpers.dll
+C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Demo.Helpers.pdb
