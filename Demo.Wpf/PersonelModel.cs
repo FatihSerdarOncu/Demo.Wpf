@@ -18,25 +18,29 @@ namespace Demo.Wpf
             public string PersonelSurname { get; set; }
             public string Department { get; set; }
             public string Address { get; set; }
+            public string Town { get; set; }
+            public string City { get; set; }
         }
         public ObservableCollection<Personel> PersonelList()
         {
             ObservableCollection<Personel> genericList = new ObservableCollection<Personel>();
 
-            var department = ServiceAdapter.Instance.GetDepartmentList();
-            foreach(EmployeeDto  emp in  ServiceAdapter.Instance.GetEmployeeList()){
-                genericList.Add(new Personel()
-                {
-                     TCKN = emp.EmployeeTCKN,
-                     PersonelName = emp.EmployeeName,
-                     PersonelSurname =  emp.EmployeeSurname,
-                     Department = department.FirstOrDefault(x => x.DepartmentId == emp.Department).DepartmentName
-                     
+			var employee = ServiceAdapter.Instance.GetEmployeeFullInfo();
 
-                });
-            }
+			foreach (EmployeeInfoDto emp in employee)
+			{
+				genericList.Add(new Personel()
+				{
+					PersonelName = emp.EmployeeName,
+					PersonelSurname = emp.EmployeeSurname,
+					Department = emp.DepartmentName,
+					Address = emp.FullAddress,
+					Town = emp.TownName,
+					City = emp.CityName
+				});
+			}
 
-            return genericList;
+			return genericList;
         }
     }
 }

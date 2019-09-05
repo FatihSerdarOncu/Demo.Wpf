@@ -218,6 +218,36 @@ namespace Demo.Server.SvcImp
 		#endregion
 
 		#region Employee
+		public List<EmployeeInfoDto> GetEmployeeFullInfo()
+		{
+			List<EmployeeInfoDto> dto = null;
+			try
+			{
+				var ınfo = da.EmployeInformation();
+				dto = new List<EmployeeInfoDto>();
+				foreach (string empInf in ınfo)
+				{
+					List<string> tempList = new List<string>(empInf.Split('-'));
+
+					dto.Add(new EmployeeInfoDto()
+					{
+						EmployeeName = tempList[0],
+						EmployeeSurname = tempList[1],
+						DepartmentName = tempList[2],
+						FullAddress = tempList[3],
+						TownName = tempList[4],
+						CityName = tempList[5]
+					});
+				}
+			}
+			catch (Exception)
+			{
+
+				throw;
+			}
+
+			return dto;
+		}
 		public List<EmployeeDto> GetEmployee()
 		{
 			try
@@ -351,6 +381,8 @@ namespace Demo.Server.SvcImp
 			}
 			return false;
 		}
+
+		
 		#endregion
 	}
 }

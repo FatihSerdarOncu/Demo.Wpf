@@ -55,6 +55,9 @@ namespace Demo.Server.Svc
 
 		#region Employee
 		[OperationContract]
+		List<EmployeeInfoDto> GetEmployeeFullInfo();
+
+		[OperationContract]
 		List<EmployeeDto> GetEmployee();
 
 		[OperationContract]

@@ -192,11 +192,21 @@ namespace Demo.Helpers
             });
             return res;
         }
-        #endregion
+		#endregion
 
-        #region Employee
+		#region Employee
 
-        public List<EmployeeDto> GetEmployeeList()
+		public List<EmployeeInfoDto> GetEmployeeFullInfo()
+		{
+			List<EmployeeInfoDto> res = null;
+			InvokeService<IDemoServerServiceContract>(c =>
+			{
+				res = c.GetEmployeeFullInfo();
+			});
+			return res;
+		}
+
+		public List<EmployeeDto> GetEmployeeList()
         {
             List<EmployeeDto> res = null;
             InvokeService<IDemoServerServiceContract>(c =>

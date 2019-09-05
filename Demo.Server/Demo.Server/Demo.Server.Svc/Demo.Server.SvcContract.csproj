@@ -48,6 +48,7 @@
     <Compile Include="DataContracts\CityDto.cs" />
     <Compile Include="DataContracts\DepartmentDto.cs" />
     <Compile Include="DataContracts\EmployeeDto.cs" />
+    <Compile Include="DataContracts\EmployeeInfo.cs" />
     <Compile Include="DataContracts\TownDto.cs" />
     <Compile Include="ServiceContract\IDemoServerServiceContract.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

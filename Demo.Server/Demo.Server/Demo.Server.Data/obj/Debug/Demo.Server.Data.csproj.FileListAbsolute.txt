@@ -28,3 +28,13 @@ C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Da
 C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\obj\Debug\Demo.Server.Data.csproj.CopyComplete
 C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\obj\Debug\Demo.Server.Data.dll
 C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\obj\Debug\Demo.Server.Data.pdb
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\bin\Debug\Demo.Server.Data.dll
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\bin\Debug\Demo.Server.Data.pdb
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\bin\Debug\Demo.Server.Svc.dll
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\bin\Debug\NPoco.dll
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\bin\Debug\Demo.Server.Svc.pdb
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\obj\Debug\Demo.Server.Data.csprojAssemblyReference.cache
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\obj\Debug\Demo.Server.Data.csproj.CoreCompileInputs.cache
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\obj\Debug\Demo.Server.Data.csproj.CopyComplete
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\obj\Debug\Demo.Server.Data.dll
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Data\obj\Debug\Demo.Server.Data.pdb

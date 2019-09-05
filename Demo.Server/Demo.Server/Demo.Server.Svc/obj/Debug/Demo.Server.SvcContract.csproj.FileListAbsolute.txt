@@ -15,3 +15,9 @@ C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Sv
 C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.SvcContract.csproj.CoreCompileInputs.cache
 C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.dll
 C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.pdb
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\Demo.Server.Svc.dll
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\Demo.Server.Svc.pdb
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.SvcContract.csprojAssemblyReference.cache
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.SvcContract.csproj.CoreCompileInputs.cache
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.dll
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.pdb

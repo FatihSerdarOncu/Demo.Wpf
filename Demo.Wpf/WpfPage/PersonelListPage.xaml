@@ -14,10 +14,13 @@
         <DataGrid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Name ="DGPersonel" AutoGenerateColumns="False" Background="#FFF9F9F9" Margin="0,44,0,0" >
             <DataGrid.Columns >
                 <DataGridCheckBoxColumn></DataGridCheckBoxColumn>
-                <DataGridTextColumn Header="TCKN" Binding="{Binding TCKN}" Width="80"/>
+                <DataGridTextColumn Header="TCKN" Binding="{Binding TCKN}" Width="60"/>
                 <DataGridTextColumn Header="PersonelName" Binding="{Binding PersonelName}" Width="110"/>
                 <DataGridTextColumn Header="PersonelSurname" Binding="{Binding PersonelSurname}" Width="110"/>
                 <DataGridTextColumn Header="Departman" Binding="{Binding Department}" Width="110"/>
+                <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="100"/>
+                <DataGridTextColumn Header="İlçe" Binding="{Binding Town}" Width="80"/>
+                <DataGridTextColumn Header="Şehir" Binding="{Binding City}" Width="80"/>
                 <DataGridTemplateColumn Header="EditAction">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
