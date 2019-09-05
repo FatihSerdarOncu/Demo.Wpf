@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Wpf\obj\Debug\
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\
 Demo.Wpf
 none
 false
 DEBUG;TRACE
-C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Wpf\App.xaml
-2-1076217341
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Wpf\App.xaml
+3-683558263
 
-7885193507
-17-1828157292
-MainWindow.xaml;WpfPage\PersonelListPage.xaml;
+8-808049409
+1736190213
+MainWindow.xaml;WpfPage\AddNewPersonalPage.xaml;WpfPage\PersonelListPage.xaml;
 
 False
 

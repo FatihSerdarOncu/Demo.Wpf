@@ -9,3 +9,9 @@ C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\De
 C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.SvcContract.csproj.CoreCompileInputs.cache
 C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.dll
 C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.pdb
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\Demo.Server.Svc.dll
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\bin\Debug\Demo.Server.Svc.pdb
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.SvcContract.csprojAssemblyReference.cache
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.SvcContract.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.dll
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Server\Demo.Server\Demo.Server.Svc\obj\Debug\Demo.Server.Svc.pdb

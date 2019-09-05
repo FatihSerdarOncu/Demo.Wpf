@@ -65,6 +65,9 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="PersonelModel.cs" />
+    <Compile Include="WpfPage\AddNewPersonalPage.xaml.cs">
+      <DependentUpon>AddNewPersonalPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WpfPage\PersonelListPage.xaml.cs">
       <DependentUpon>PersonelListPage.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="WpfPage\AddNewPersonalPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WpfPage\PersonelListPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

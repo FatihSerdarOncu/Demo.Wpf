@@ -52,5 +52,10 @@ namespace Demo.Wpf.WpfPage
             
 
         }
+        private void Button_Click_AddNewPersonel(object sender, RoutedEventArgs e)
+        {
+            AddNewPersonalPAge nextPage = new AddNewPersonalPAge();
+            NavigationService.Navigate(nextPage);
+        }
     }
 }

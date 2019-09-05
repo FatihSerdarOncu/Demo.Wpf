@@ -7,3 +7,12 @@ C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Dem
 C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Demo.Helpers.csproj.CopyComplete
 C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Demo.Helpers.dll
 C:\Users\Serdar\Desktop\DemoEmployeeInformationSystem\Demo.Helpers\obj\Debug\Demo.Helpers.pdb
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\bin\Debug\Demo.Helpers.dll
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\bin\Debug\Demo.Helpers.pdb
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\bin\Debug\Demo.Server.Svc.dll
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\bin\Debug\Demo.Server.Svc.pdb
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\obj\Debug\Demo.Helpers.csprojAssemblyReference.cache
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\obj\Debug\Demo.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\obj\Debug\Demo.Helpers.csproj.CopyComplete
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\obj\Debug\Demo.Helpers.dll
+C:\Users\Serdar\Documents\GitHub\Demo.Wpf\Demo.Helpers\obj\Debug\Demo.Helpers.pdb
