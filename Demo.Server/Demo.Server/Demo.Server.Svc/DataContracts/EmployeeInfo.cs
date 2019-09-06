@@ -8,6 +8,7 @@ namespace Demo.Server.Svc.DataContracts
 {
 	public class EmployeeInfoDto
 	{
+		public long TCKN { get; set; }
 		public string EmployeeName { get; set; }
 
 		public string EmployeeSurname { get; set; }

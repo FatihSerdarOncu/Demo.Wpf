@@ -47,6 +47,7 @@
     <Compile Include="DataContracts\AddressDto.cs" />
     <Compile Include="DataContracts\CityDto.cs" />
     <Compile Include="DataContracts\DepartmentDto.cs" />
+    <Compile Include="DataContracts\EmployeeAddressDto.cs" />
     <Compile Include="DataContracts\EmployeeDto.cs" />
     <Compile Include="DataContracts\EmployeeInfo.cs" />
     <Compile Include="DataContracts\TownDto.cs" />

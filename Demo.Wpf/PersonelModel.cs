@@ -13,7 +13,7 @@ namespace Demo.Wpf
     {
         public class Personel
         {
-            public int TCKN { get; set; }
+            public long TCKN { get; set; }
             public string PersonelName { get; set; }
             public string PersonelSurname { get; set; }
             public string Department { get; set; }
@@ -31,6 +31,7 @@ namespace Demo.Wpf
 			{
 				genericList.Add(new Personel()
 				{
+					TCKN = emp.TCKN,
 					PersonelName = emp.EmployeeName,
 					PersonelSurname = emp.EmployeeSurname,
 					Department = emp.DepartmentName,

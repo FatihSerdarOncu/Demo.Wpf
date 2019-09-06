@@ -235,7 +235,7 @@ namespace Demo.Helpers
             return res;
         }
 
-        public bool DeleteEmployee(int empTC)
+        public bool DeleteEmployee(long empTC)
         {
             bool res = false;
             InvokeService<IDemoServerServiceContract>(c =>
@@ -286,7 +286,27 @@ namespace Demo.Helpers
             });
             return res;
         }
-        #endregion
+		#endregion
 
-    }
+		#region Employee Address
+		public void InsertEmployeeAddress(EmployeeAddressDto employeeAddressObject)
+		{
+
+			InvokeService<IDemoServerServiceContract>(c =>
+			{
+				c.InsertEmployeeAddress(employeeAddressObject);
+			});
+		}
+
+		public bool DeleteEmployeeAddress(int oid)
+		{
+			bool res = false;
+			InvokeService<IDemoServerServiceContract>(c =>
+			{
+				c.DeleteEmployeeAddress(oid);
+			});
+			return res;
+		}
+		#endregion
+	}
 }

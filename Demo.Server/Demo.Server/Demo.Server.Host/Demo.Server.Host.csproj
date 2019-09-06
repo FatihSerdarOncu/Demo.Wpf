@@ -60,6 +60,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Demo.Server.Data\Demo.Server.Data.csproj">
+      <Project>{CC2122D7-DC9B-40C3-AED1-A2E7F374A266}</Project>
+      <Name>Demo.Server.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Demo.Server.SvcImp\Demo.Server.SvcImp.csproj">
       <Project>{EFBA41E5-6FD0-4DB4-B93E-81AB3D193471}</Project>
       <Name>Demo.Server.SvcImp</Name>

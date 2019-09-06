@@ -67,7 +67,15 @@ namespace Demo.Server.Svc
 		bool UpdateEmployee(EmployeeDto employeeObject);
 
 		[OperationContract]
-		bool DeleteEmployee(int EmployeeTc);
+		bool DeleteEmployee(long EmployeeTc);
+		#endregion
+
+		#region EmployeeAddress
+		[OperationContract]
+		void InsertEmployeeAddress(EmployeeAddressDto employeeAddressObject);
+
+		[OperationContract]
+		bool DeleteEmployeeAddress(int oid);
 		#endregion
 
 		#region Town

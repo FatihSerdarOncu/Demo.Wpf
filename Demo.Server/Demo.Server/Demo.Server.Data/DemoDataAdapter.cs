@@ -80,7 +80,7 @@ namespace Demo.Server.Data
 				//
 
 				sqlCommandGeneral = String.Format(
-					"SELECT emp.EmployeeName,emp.EmployeeSurname,dep.DepartmentName, adr.FullAddress,t.TownName,c.CityName" +
+					"SELECT emp.EmployeeTCKN,emp.EmployeeName,emp.EmployeeSurname,dep.DepartmentName, adr.FullAddress,t.TownName,c.CityName" +
 					" FROM Employee as emp " +
 					" INNER JOIN Department as dep ON emp.Department = dep.DepartmentId" +
 					" INNER JOIN EmployeeAddress as empAdr ON emp.EmployeeTCKN = empAdr.EmpId" +
@@ -111,9 +111,16 @@ namespace Demo.Server.Data
 					}
 				}
 			}
-			List<string> temp = new List<string>(returnValue[0].Split('-'));
 			return returnValue;
 		}
 
+		public int DeleteEmployee<T>(long id)
+		{
+			using (NPoco.IDatabase dbContext = new NPoco.Database(connectionString, NPoco.DatabaseType.SqlServer2012))
+			{
+				var obj = dbContext.SingleById<T>(id);
+				return dbContext.Delete<T>(obj);
+			}
+		}
 	}
 }

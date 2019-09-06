@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Demo.Server.Data.Model
 {
-	[PrimaryKey("EmployeeTCKN")]
+	[PrimaryKey("EmployeeTCKN", AutoIncrement = false)]
 	[TableName("Employee")]
 	public class Employee
 	{
-		public int EmployeeTCKN { get; set; }
+		public long EmployeeTCKN { get; set; }
 		public string EmployeeName { get; set; }
 		public string EmployeeSurname { get; set; }
 		public int Department { get; set; }

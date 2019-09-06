@@ -51,6 +51,7 @@
     <Compile Include="Model\City.cs" />
     <Compile Include="Model\Department.cs" />
     <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\EmployeeAddress.cs" />
     <Compile Include="Model\Town.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

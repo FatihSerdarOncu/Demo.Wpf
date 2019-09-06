@@ -231,12 +231,13 @@ namespace Demo.Server.SvcImp
 
 					dto.Add(new EmployeeInfoDto()
 					{
-						EmployeeName = tempList[0],
-						EmployeeSurname = tempList[1],
-						DepartmentName = tempList[2],
-						FullAddress = tempList[3],
-						TownName = tempList[4],
-						CityName = tempList[5]
+						TCKN = Convert.ToInt64(tempList[0]),
+						EmployeeName = tempList[1],
+						EmployeeSurname = tempList[2],
+						DepartmentName = tempList[3],
+						FullAddress = tempList[4],
+						TownName = tempList[5],
+						CityName = tempList[6]
 					});
 				}
 			}
@@ -301,11 +302,11 @@ namespace Demo.Server.SvcImp
 			return false;
 		}
 
-		public bool DeleteEmployee(int EmployeeTc)
+		public bool DeleteEmployee(long EmployeeTc)
 		{
 			try
 			{
-				if (da.Delete<Employee>(EmployeeTc) == 1)
+				if (da.DeleteEmployee<Employee>(EmployeeTc) == 1)
 					return true;
 			}
 			catch (Exception ex)
@@ -382,7 +383,40 @@ namespace Demo.Server.SvcImp
 			return false;
 		}
 
-		
+		#endregion
+
+		#region Employee Address
+		public void InsertEmployeeAddress(EmployeeAddressDto employeeAddressObject)
+		{
+			try
+			{
+				da.Insert<EmployeeAddress>(new EmployeeAddress()
+				{
+					Oid = employeeAddressObject.Oid,
+					EmpId = employeeAddressObject.EmpId,
+					AddId = employeeAddressObject.AddId
+				});
+			}
+			catch (Exception)
+			{
+
+				throw;
+			}
+		}
+
+		public bool DeleteEmployeeAddress(int oid)
+		{
+			try
+			{
+				if (da.Delete<EmployeeAddress>(oid) == 1)
+					return true;
+			}
+			catch (Exception ex)
+			{
+				throw;
+			}
+			return false;
+		}
 		#endregion
 	}
 }
