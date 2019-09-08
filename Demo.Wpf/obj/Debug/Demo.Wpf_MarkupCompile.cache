@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\App.xaml
-3-683558263
+7-2103790758
 
-8-808049409
+131507741912
 17-1107442570
-MainWindow.xaml;WpfPage\AddNewPersonalPage.xaml;WpfPage\PersonelListPage.xaml;
+MainWindow.xaml;WpfPage\AddNewPersonalPage.xaml;WpfPage\Department\AddNewDepartment_Page.xaml;WpfPage\Department\DepartmentListPage.xaml;WpfPage\Department\EditDepartment_Page.xaml;WpfPage\EditPersonelPage.xaml;WpfPage\PersonelListPage.xaml;
 
 False
 

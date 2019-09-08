@@ -161,10 +161,9 @@ namespace Demo.Wpf.WpfPage
 				if (!tbSource.Text.Equals("TCKN"))
 					employeeInfoDto.TCKN = Convert.ToInt64( tbSource.Text);
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
-
-				throw;
+				MessageBox.Show(ex.Message);
 			}
 		}
 
@@ -227,27 +226,35 @@ namespace Demo.Wpf.WpfPage
 
 		private void BtnClick_AddModel(object sender, RoutedEventArgs e)
 		{
-			var temp = employeeInfoDto;
-			ServiceAdapter.Instance.InsertEmployee(new EmployeeDto()
+			try
 			{
-				EmployeeTCKN =temp.TCKN,
-				EmployeeName =temp.EmployeeName,
-				EmployeeSurname = temp.EmployeeSurname,
-				Department = departmentDict.FirstOrDefault(x => x.Value == employeeInfoDto.DepartmentName).Key
-			});
+				var temp = employeeInfoDto;
+				ServiceAdapter.Instance.InsertEmployee(new EmployeeDto()
+				{
+					EmployeeTCKN = temp.TCKN,
+					EmployeeName = temp.EmployeeName,
+					EmployeeSurname = temp.EmployeeSurname,
+					Department = departmentDict.FirstOrDefault(x => x.Value == employeeInfoDto.DepartmentName).Key
+				});
+
+				ServiceAdapter.Instance.InsertAddress(new AddressDto()
+				{
+					FullAddress = temp.FullAddress,
+					Town = townDict.FirstOrDefault(x => x.Value == employeeInfoDto.TownName).Key
+				});
+
+				ServiceAdapter.Instance.InsertEmployeeAddress(new EmployeeAddressDto()
+				{
+					EmpId = temp.TCKN,
+					AddId = ServiceAdapter.Instance.GetAddressList().FirstOrDefault(x => x.FullAddress == temp.FullAddress).AddressId
+
+				});
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
 			
-			ServiceAdapter.Instance.InsertAddress(new AddressDto()
-			{
-				FullAddress = temp.FullAddress,
-				Town = townDict.FirstOrDefault(x=>x.Value == employeeInfoDto.TownName).Key
-			});
-
-			ServiceAdapter.Instance.InsertEmployeeAddress(new EmployeeAddressDto()
-			{
-				EmpId = temp.TCKN,
-				AddId = ServiceAdapter.Instance.GetAddressList().FirstOrDefault(x => x.FullAddress == temp.FullAddress).AddressId
-
-			});
 
 			PersonelListPage nextPage = new PersonelListPage();
 			NavigationService.Navigate(nextPage);

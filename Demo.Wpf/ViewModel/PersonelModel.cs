@@ -11,7 +11,7 @@ namespace Demo.Wpf
 {
     public class PersonelModel
     {
-        public class Personel
+        public class Personnel
         {
             public long TCKN { get; set; }
             public string PersonelName { get; set; }
@@ -21,15 +21,15 @@ namespace Demo.Wpf
             public string Town { get; set; }
             public string City { get; set; }
         }
-        public ObservableCollection<Personel> PersonelList()
+        public ObservableCollection<Personnel> PersonelList()
         {
-            ObservableCollection<Personel> genericList = new ObservableCollection<Personel>();
+            ObservableCollection<Personnel> genericList = new ObservableCollection<Personnel>();
 
 			var employee = ServiceAdapter.Instance.GetEmployeeFullInfo();
 
 			foreach (EmployeeInfoDto emp in employee)
 			{
-				genericList.Add(new Personel()
+				genericList.Add(new Personnel()
 				{
 					TCKN = emp.TCKN,
 					PersonelName = emp.EmployeeName,

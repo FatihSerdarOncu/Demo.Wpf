@@ -289,6 +289,16 @@ namespace Demo.Helpers
 		#endregion
 
 		#region Employee Address
+		public List<EmployeeAddressDto> GetEmployeeAddressList()
+		{
+			List<EmployeeAddressDto> res = null;
+			InvokeService<IDemoServerServiceContract>(c =>
+			{
+				res = c.GetEmployeeAddress();
+			});
+			return res;
+		}
+
 		public void InsertEmployeeAddress(EmployeeAddressDto employeeAddressObject)
 		{
 

@@ -1,5 +1,6 @@
 ﻿using Demo.Helpers;
 using Demo.Wpf.WpfPage;
+using Demo.Wpf.WpfPage.Department;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,5 +43,10 @@ namespace Demo.Wpf
         {
             Main.Content = new PersonelListPage();
         }
-    }
+
+		private void Btn_Department_Click(object sender, RoutedEventArgs e)
+		{
+			Main.Content = new DepartmentListPage();
+		}
+	}
 }

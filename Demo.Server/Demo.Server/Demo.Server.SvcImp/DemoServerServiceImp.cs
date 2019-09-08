@@ -274,10 +274,10 @@ namespace Demo.Server.SvcImp
 						Department = employeeObject.Department
 				});
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
 
-				throw;
+				//throw new Exception(ex.Message);
 			}
 		}
 
@@ -416,6 +416,20 @@ namespace Demo.Server.SvcImp
 				throw;
 			}
 			return false;
+		}
+
+		public List<EmployeeAddressDto> GetEmployeeAddress()
+		{
+			try
+			{
+				var eaList = da.List<EmployeeAddress>(null);
+				return EmployeeAddress.GetEntityCollection(eaList);
+			}
+			catch (Exception ex)
+			{
+
+				throw;
+			}
 		}
 		#endregion
 	}

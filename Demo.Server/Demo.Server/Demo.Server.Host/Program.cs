@@ -18,7 +18,7 @@ namespace Demo.Server.Host
 		static void Main(string[] args)
 		{
 			//DemoDataAdapter da = new DemoDataAdapter(ConfigurationManager.ConnectionStrings["EmployeeServer"].ConnectionString);
-			//da.Insert<Employee>(new Employee() {EmployeeTCKN =  41485835882,EmployeeName = "Sunucudan",EmployeeSurname="Denedim",Department=1});
+			//var d = da.Update<Employee>(new Employee() {EmployeeTCKN = 999999999999, EmployeeName = "Çok editlemelik",EmployeeSurname="kıh kıh",Department=2});
 
 			try
 			{

@@ -86,3 +86,11 @@ C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\Demo.Wpf.csproj.Core
 C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\Demo.Wpf.csproj.CopyComplete
 C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\Demo.Wpf.exe
 C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\Demo.Wpf.pdb
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\WpfPage\EditPersonelPage.g.cs
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\WpfPage\EditPersonelPage.baml
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\WpfPage\Department\DepartmentListPage.g.cs
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\WpfPage\Department\DepartmentListPage.baml
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\WpfPage\Department\AddNewDepartment_Page.g.cs
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\WpfPage\Department\EditDepartment_Page.g.cs
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\WpfPage\Department\AddNewDepartment_Page.baml
+C:\Users\serda\Documents\GitHub\Demo.Wpf\Demo.Wpf\obj\Debug\WpfPage\Department\EditDepartment_Page.baml

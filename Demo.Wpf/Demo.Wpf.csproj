@@ -64,9 +64,22 @@
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PersonelModel.cs" />
+    <Compile Include="ViewModel\DepartmentModel.cs" />
+    <Compile Include="ViewModel\PersonelModel.cs" />
     <Compile Include="WpfPage\AddNewPersonalPage.xaml.cs">
       <DependentUpon>AddNewPersonalPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfPage\Department\AddNewDepartment_Page.xaml.cs">
+      <DependentUpon>AddNewDepartment_Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfPage\Department\DepartmentListPage.xaml.cs">
+      <DependentUpon>DepartmentListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfPage\Department\EditDepartment_Page.xaml.cs">
+      <DependentUpon>EditDepartment_Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfPage\EditPersonelPage.xaml.cs">
+      <DependentUpon>EditPersonelPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="WpfPage\PersonelListPage.xaml.cs">
       <DependentUpon>PersonelListPage.xaml</DependentUpon>
@@ -82,6 +95,22 @@
     <Page Include="WpfPage\AddNewPersonalPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfPage\Department\AddNewDepartment_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfPage\Department\DepartmentListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfPage\Department\EditDepartment_Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfPage\EditPersonelPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="WpfPage\PersonelListPage.xaml">
       <SubType>Designer</SubType>

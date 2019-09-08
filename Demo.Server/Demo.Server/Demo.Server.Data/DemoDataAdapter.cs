@@ -16,6 +16,7 @@ namespace Demo.Server.Data
 			this.connectionString = _connStr;
 		}
 
+		
 		public T SingleOrDefault<T>(Func<T, bool> filter)
 		{
 			using (NPoco.IDatabase dbContext = new NPoco.Database(connectionString, NPoco.DatabaseType.SqlServer2012))
@@ -120,6 +121,14 @@ namespace Demo.Server.Data
 			{
 				var obj = dbContext.SingleById<T>(id);
 				return dbContext.Delete<T>(obj);
+			}
+		}
+
+		public T SingleByIdEmployee<T>(long id)
+		{
+			using (NPoco.IDatabase dbContext = new NPoco.Database(connectionString, NPoco.DatabaseType.SqlServer2012))
+			{
+				return dbContext.SingleById<T>(id); ;
 			}
 		}
 	}

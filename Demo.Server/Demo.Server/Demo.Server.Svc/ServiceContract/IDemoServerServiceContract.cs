@@ -72,6 +72,9 @@ namespace Demo.Server.Svc
 
 		#region EmployeeAddress
 		[OperationContract]
+		List<EmployeeAddressDto> GetEmployeeAddress();
+
+		[OperationContract]
 		void InsertEmployeeAddress(EmployeeAddressDto employeeAddressObject);
 
 		[OperationContract]
